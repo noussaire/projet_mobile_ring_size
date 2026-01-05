@@ -28,6 +28,8 @@ En-tête doré avec fond blanc, design épuré et professionnel
 
 ## 2. Écran de Connexion
 
+![Inscription](2.jpeg)
+
 **Description :**  
 Page de connexion sécurisée pour accéder à l'application.
 
@@ -46,6 +48,7 @@ Authentification sécurisée avec toggle de visibilité du mot de passe
 ---
 
 ## 3. Page d'Accueil
+![Inscription](3.jpeg)
 
 **Description :**  
 Dashboard principal affichant les prix de l'or en temps réel et les actions rapides.
@@ -69,6 +72,7 @@ Barre de navigation inférieure avec icônes (Home, Products, Admin, Profile)
 
 ## 4. Calculateur de Bague
 
+![Inscription](4.jpeg)
 **Description :**  
 Outil interactif pour calculer la taille de bague avec visualisation graphique.
 
@@ -90,6 +94,7 @@ Outil interactif pour calculer la taille de bague avec visualisation graphique.
 
 ## 5. Calculateur de Bracelet
 
+![Inscription](5.jpeg)
 **Description :**  
 Outil de calcul basé sur la circonférence du poignet.
 
@@ -116,6 +121,8 @@ Measure your wrist circumference using a flexible measuring tape or string.
 
 ## 6. Catalogue de Produits
 
+![Inscription](6.1.jpeg)
+![Inscription](6.2.jpeg)
 **Description :**  
 Affichage en grille des produits disponibles.
 
@@ -142,6 +149,7 @@ Cartes produits avec fond doré
 
 ## 7. Calculateur de Valeur d'Or (Partie 1)
 
+![Inscription](7.1.jpeg)
 **Description :**  
 Interface de calcul de la valeur estimée.
 
@@ -163,6 +171,7 @@ Interface de calcul de la valeur estimée.
 
 ## 8. Calculateur de Valeur d'Or (Résultat)
 
+![Inscription](7.2.jpeg)
 **Estimated Value :**
 - د.م. 5.717,00
 
@@ -178,6 +187,7 @@ Interface de calcul de la valeur estimée.
 
 ## 9. Détail du Produit
 
+![Inscription](8.jpeg)
 - Nom : teeeeeest
 - Description : Test description
 - Type : Ring
@@ -197,6 +207,7 @@ Bouton **CALL OWNER**
 
 ## 10. Gestion des Produits (Admin)
 
+![Inscription](9.1.jpeg)
 Fonctionnalités :
 - TOGGLE : Activer/Désactiver
 - EDIT : Modifier
@@ -207,6 +218,7 @@ Fonctionnalités :
 
 ## 11. Ajouter un Produit
 
+![Inscription](9.2.jpeg)
 ### Champs
 - Product Name *
 - Description
@@ -227,6 +239,7 @@ Fonctionnalités :
 
 ## 12. Profil Utilisateur
 
+![Inscription](10.jpeg)
 - Avatar
 - Nom
 - Email
