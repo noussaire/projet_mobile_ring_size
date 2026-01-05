@@ -1,90 +1,268 @@
 # projet_mobile_ring_size
-🎯 Description du projet
-Ring Sizer est une application mobile développée pour calculer les tailles de bagues et de bracelets, tout en suivant les prix de l'or en temps réel. L'application offre une interface intuitive permettant aux utilisateurs de mesurer précisément leurs bijoux et de consulter les prix du marché.
+# 🔷 Ring Sizer
 
-Technologies utilisées : Android, Java/Kotlin, Material Design
+Ring Sizer est une application mobile complète conçue pour faciliter le calcul des tailles de bagues, bracelets et la gestion de produits en or.  
+Elle permet également de suivre les prix de l'or en temps réel et d'estimer la valeur des bijoux.
 
-📸 Captures d'écran et fonctionnalités
-1️⃣ Écran d'inscription (Register)
+---
 
-![WhatsApp Image 2026-01-05 at 22 50 55](https://github.com/user-attachments/assets/586af8cc-69b2-4482-90fc-c554b2ca1182)
+## 2. Écran d'Inscription
 
-Fonctionnalité : Page d'inscription pour créer un nouveau compte utilisateur.
+**Description :**  
+Interface d'inscription permettant la création d'un nouveau compte utilisateur.
 
-L'utilisateur peut s'inscrire en renseignant :
+**Éléments clés :**
+- Champ **Name** pour le nom complet
+- Champ **Email** pour l'adresse électronique
+- Champ **Password** pour le mot de passe
+- Champ **Confirm Password** pour la vérification du mot de passe
+- Bouton **REGISTER** pour soumettre le formulaire
+- Lien **Already have an account? Login** pour rediriger vers la connexion
 
-Nom : Identification de l'utilisateur
-Email : Adresse email unique
-Mot de passe : Sécurisé avec option de visibilité (icône œil)
-Confirmation du mot de passe : Validation de la saisie
-Le bouton "REGISTER" permet de valider l'inscription. Un lien vers la page de connexion est disponible pour les utilisateurs déjà inscrits : "Already have an account? Login".
+**Design :**  
+En-tête doré avec fond blanc, design épuré et professionnel
 
-2️⃣ Écran de connexion (Login)
-![WhatsApp Image 2026-01-05 at 22 51 01](https://github.com/user-attachments/assets/aa9172fd-fcf0-4b21-b504-0d53d46923cf)
+---
 
-Fonctionnalité : Page de connexion pour accéder à l'application.
+## 3. Écran de Connexion
 
-L'écran présente :
+**Description :**  
+Page de connexion sécurisée pour accéder à l'application.
 
-Logo de l'application : Icône "Ring Sizer"
-Slogan : "Calculate ring sizes and track gold prices"
-Champs de connexion : Email et mot de passe
-Bouton LOGIN : Authentification de l'utilisateur
-Un lien "Don't have an account? Register" redirige vers l'écran d'inscription pour les nouveaux utilisateurs.
+**Éléments clés :**
+- Logo avec icône d'image
+- Titre **Ring Sizer**
+- Sous-titre *Calculate ring sizes and track gold prices*
+- Champ **Email**
+- Champ **Password** avec icône œil pour afficher/masquer le mot de passe
+- Bouton **LOGIN**
+- Lien **Don't have an account? Register**
 
-3️⃣ Écran d'accueil (Home Dashboard)
-![WhatsApp Image 2026-01-05 at 22 51 24](https://github.com/user-attachments/assets/b4d0e08c-caff-494b-917b-bbb3f6e31109)
+**Fonctionnalité :**  
+Authentification sécurisée avec toggle de visibilité du mot de passe
 
-Fonctionnalité : Tableau de bord principal avec accès aux fonctionnalités clés.
+---
 
-Affichage des prix de l'or (en MAD/g) :
+## 4. Page d'Accueil
 
-24k : 1 429,25 د.م.
-22k : 1 310,19 د.م.
-18k : 1 071,94 د.م.
-14k : 833,68 د.م.
-Quick Actions - Menu de navigation rapide :
+**Description :**  
+Dashboard principal affichant les prix de l'or en temps réel et les actions rapides.
 
-🔵 Ring Calculator : Mesurer la taille de bague
-🕐 Bracelet Calculator : Calculer la taille de bracelet
-📊 Gold Calculator : Calculer la valeur de l'or
-🖼️ Products : Parcourir le catalogue
-Barre de navigation en bas permet de naviguer entre les sections principales.
+### Prix de l'Or (MAD)
+- 24k : د.م. 1.429,25/g
+- 22k : د.م. 1.310,19/g
+- 18k : د.م. 1.071,94/g
+- 14k : د.م. 833,68/g
 
-4️⃣ Calculateur de taille de bague (Ring Calculator)
-![WhatsApp Image 2026-01-05 at 22 51 35](https://github.com/user-attachments/assets/a500967a-9ce9-4961-8597-c365907c85ea)
+### Quick Actions
+- 👁️ Ring Calculator - Measure ring size
+- 🕐 Bracelet Calculator - Calculate bracelet size
+- ⚖️ Gold Calculator - Calculate gold value
+- 🖼️ Products - Browse catalog
 
+**Navigation :**  
+Barre de navigation inférieure avec icônes (Home, Products, Admin, Profile)
 
-Fonctionnalité : Mesure interactive de la circonférence de la bague.
+---
 
-L'utilisateur peut :
+## 5. Calculateur de Bague
 
-Ajuster la circonférence : Utiliser les boutons - et + pour modifier la valeur (35.7 mm dans l'exemple)
-Visualisation graphique : Un cercle représente la taille de la bague en temps réel
-Conversion automatique : Affichage des tailles dans différents standards :
-🇺🇸 US: 30
-🇬🇧 UK: 29.5
-🇪🇺 EU: 44
-Circonférence totale : 112.2 mm
-Notes optionnelles : Champ pour ajouter des commentaires
-Bouton "SAVE MEASUREMENT" : Enregistrer les mesures
-5️⃣ Calculateur de bracelet (Bracelet Calculator)
-![WhatsApp Image 2026-01-05 at 22 51 44](https://github.com/user-attachments/assets/d583b9bb-9223-468d-a09e-b43603d858e9)
+**Description :**  
+Outil interactif pour calculer la taille de bague avec visualisation graphique.
 
-Fonctionnalité : Calcul de la taille de bracelet personnalisée.
+**Éléments clés :**
+- Représentation visuelle circulaire du diamètre (35.7 mm)
+- Boutons **−** et **+** pour ajuster la mesure
+- Affichage : **35.7 mm**
 
-Instructions claires : "Measure your wrist circumference using a flexible measuring tape or string. Wrap it around your wrist where you would wear the bracelet."
+### Conversions automatiques
+- Circonférence : 112.2 mm
+- US : 30
+- UK : 29.5
+- EU : 44
 
-Saisie utilisateur :
+- Zone **Notes (optional)**
+- Bouton **SAVE MEASUREMENT**
 
-Circonférence du poignet : Champ pour entrer la mesure (14 cm dans l'exemple)
-Type d'ajustement :
-⚪ Snug (Serré)
-⚪ Comfortable (Confortable)
-🟡 Loose (Lâche) ✓ sélectionné
-Résultat du calcul :
+---
 
-Wrist: 14.0 cm
-Bracelet: 16.5 cm (taille recommandée)
-Fit: Loose
-Bouton "CALCULATE SIZE" : Lance le calcul Bouton "SAVE MEASUREMENT" : Enregistre les données
+## 6. Calculateur de Bracelet
+
+**Description :**  
+Outil de calcul basé sur la circonférence du poignet.
+
+**Instructions :**  
+Measure your wrist circumference using a flexible measuring tape or string.
+
+**Champs :**
+- Wrist Circumference (cm) : 14
+
+**Fit Type :**
+- Snug
+- Comfortable
+- Loose (sélectionné)
+
+**Résultat :**
+- Wrist : 14.0 cm
+- Bracelet : 16.5 cm
+- Fit : Loose
+
+- Notes (optional)
+- Bouton **SAVE MEASUREMENT**
+
+---
+
+## 7. Catalogue de Produits
+
+**Description :**  
+Affichage en grille des produits disponibles.
+
+### Produits
+**teeeeeest**
+- 18k
+- 10.5g
+- MAD 1000.00
+
+**Tesst 2**
+- 22k
+- 18.0g
+- MAD 12799.00
+
+**dream ring**
+- 24k
+- 12.0g
+- MAD 9999.00
+
+**Design :**  
+Cartes produits avec fond doré
+
+---
+
+## 8. Calculateur de Valeur d'Or (Partie 1)
+
+**Description :**  
+Interface de calcul de la valeur estimée.
+
+### Current Gold Prices (MAD)
+- 24k : د.م. 1.429,25/g
+- 22k : د.م. 1.310,19/g
+- 18k : د.م. 1.071,94/g
+- 14k : د.م. 833,68/g
+
+### Formulaire
+- Item Type : Ring / Bracelet / Other
+- Weight : 4g
+- Size (US) : 7
+- Gold Purity : 24k / 22k / 18k / 14k
+- Making Charges : 0%
+- Bouton **CALCULATE VALUE**
+
+---
+
+## 9. Calculateur de Valeur d'Or (Résultat)
+
+**Estimated Value :**
+- د.م. 5.717,00
+
+**Détails :**
+- Gold Value : د.م. 5.717,00
+- Making Charges : د.م. 0,00
+- Price/Gram : د.م. 1.429,25
+
+**Formule :**  
+(Poids × Prix au gramme × Pureté) + Frais + Supplément taille
+
+---
+
+## 10. Détail du Produit
+
+- Nom : teeeeeest
+- Description : Test description
+- Type : Ring
+- Purity : 18k
+- Weight : 10.5g
+- Size : 10
+- Condition : New
+- Prix : MAD 1000.00
+
+**Owner Information**
+- Phone : 0600000000
+- City : Casablanca
+
+Bouton **CALL OWNER**
+
+---
+
+## 11. Gestion des Produits (Admin)
+
+Fonctionnalités :
+- TOGGLE : Activer/Désactiver
+- EDIT : Modifier
+- DELETE : Supprimer
+- Bouton **+** pour ajouter
+
+---
+
+## 12. Ajouter un Produit
+
+### Champs
+- Product Name *
+- Description
+- Product Type
+- Gold Purity
+- Weight
+- Size
+- Currency : MAD
+- Estimated Price
+- Owner Phone
+- Owner City
+- Condition : New
+- Images (max 5)
+- Published
+- Bouton **SAVE PRODUCT**
+
+---
+
+## 13. Profil Utilisateur
+
+- Avatar
+- Nom
+- Email
+- Badge Admin
+- Historique des mesures
+- Bouton **LOGOUT**
+
+---
+
+## 🎨 Design System
+
+### Couleurs
+- Or : #D4AF37
+- Blanc : #FFFFFF
+- Gris foncé
+- Vert pour actions positives
+
+### Composants
+- Cartes avec ombres
+- Boutons arrondis
+- Champs dorés
+- Icônes minimalistes
+
+---
+
+## 📋 Technologies Utilisées
+
+- Framework mobile : React Native / Flutter
+- Backend : Node.js / Firebase / Laravel
+- Base de données : MongoDB / PostgreSQL / Firebase
+- API : Gold Price API
+
+---
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/noussaire/ring-sizer.git
+cd ring-sizer
+npm install
+npm start
