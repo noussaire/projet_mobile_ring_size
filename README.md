@@ -6,7 +6,9 @@ Elle permet également de suivre les prix de l'or en temps réel et d'estimer la
 
 ---
 
-## 2. Écran d'Inscription
+## 1. Écran d'Inscription
+
+![Inscription](1.jpeg)
 
 **Description :**  
 Interface d'inscription permettant la création d'un nouveau compte utilisateur.
@@ -24,7 +26,7 @@ En-tête doré avec fond blanc, design épuré et professionnel
 
 ---
 
-## 3. Écran de Connexion
+## 2. Écran de Connexion
 
 **Description :**  
 Page de connexion sécurisée pour accéder à l'application.
@@ -43,7 +45,7 @@ Authentification sécurisée avec toggle de visibilité du mot de passe
 
 ---
 
-## 4. Page d'Accueil
+## 3. Page d'Accueil
 
 **Description :**  
 Dashboard principal affichant les prix de l'or en temps réel et les actions rapides.
@@ -65,7 +67,7 @@ Barre de navigation inférieure avec icônes (Home, Products, Admin, Profile)
 
 ---
 
-## 5. Calculateur de Bague
+## 4. Calculateur de Bague
 
 **Description :**  
 Outil interactif pour calculer la taille de bague avec visualisation graphique.
@@ -86,7 +88,7 @@ Outil interactif pour calculer la taille de bague avec visualisation graphique.
 
 ---
 
-## 6. Calculateur de Bracelet
+## 5. Calculateur de Bracelet
 
 **Description :**  
 Outil de calcul basé sur la circonférence du poignet.
@@ -112,7 +114,7 @@ Measure your wrist circumference using a flexible measuring tape or string.
 
 ---
 
-## 7. Catalogue de Produits
+## 6. Catalogue de Produits
 
 **Description :**  
 Affichage en grille des produits disponibles.
@@ -138,7 +140,7 @@ Cartes produits avec fond doré
 
 ---
 
-## 8. Calculateur de Valeur d'Or (Partie 1)
+## 7. Calculateur de Valeur d'Or (Partie 1)
 
 **Description :**  
 Interface de calcul de la valeur estimée.
@@ -159,7 +161,7 @@ Interface de calcul de la valeur estimée.
 
 ---
 
-## 9. Calculateur de Valeur d'Or (Résultat)
+## 8. Calculateur de Valeur d'Or (Résultat)
 
 **Estimated Value :**
 - د.م. 5.717,00
@@ -174,7 +176,7 @@ Interface de calcul de la valeur estimée.
 
 ---
 
-## 10. Détail du Produit
+## 9. Détail du Produit
 
 - Nom : teeeeeest
 - Description : Test description
@@ -193,7 +195,7 @@ Bouton **CALL OWNER**
 
 ---
 
-## 11. Gestion des Produits (Admin)
+## 10. Gestion des Produits (Admin)
 
 Fonctionnalités :
 - TOGGLE : Activer/Désactiver
@@ -203,7 +205,7 @@ Fonctionnalités :
 
 ---
 
-## 12. Ajouter un Produit
+## 11. Ajouter un Produit
 
 ### Champs
 - Product Name *
@@ -223,7 +225,7 @@ Fonctionnalités :
 
 ---
 
-## 13. Profil Utilisateur
+## 12. Profil Utilisateur
 
 - Avatar
 - Nom
